@@ -1,0 +1,23 @@
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.social-link:hover {
+    color: var(--first-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .social-link {
+      font-size: 1.125rem;
+    }
+  }

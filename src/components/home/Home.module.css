@@ -1,0 +1,31 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.shortIntro {
+    background-color: var(--container-color);
+    padding: .5rem 1.5rem;
+    border-radius: var(--border-radius);
+}
