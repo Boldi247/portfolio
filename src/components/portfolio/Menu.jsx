@@ -1,46 +1,28 @@
-import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
-import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
-import Work6 from "../../assets/work-6.svg";
+import ReactMeals from "../../assets/projects-index/reactmeals.png";
+import AmazonStore from "../../assets/projects-index/amazon.png";
+import Unity from "../../assets/projects-index/unity.png";
 
 const Menu = [
   {
     id: 1,
-    image: Work1,
-    title: "Illustration",
+    image: ReactMeals,
+    title: "Food Order App with Firebase back-end (non-responsive yet)",
     category: "React.js",
+    link: "https://kovacs-boldizsar-food-order.netlify.app",
   },
   {
     id: 2,
-    image: Work2,
-    title: "Illustration",
+    image: AmazonStore,
+    title: "Beauty Product Store Concept (non-responsive yet)",
     category: "React.js",
+    link: "https://kovacs-boldizsar-amazon-store.netlify.app",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Illustration",
-    category: "React.js",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "Illustration",
-    category: "React.js",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Illustration",
-    category: "React.js",
-  },
-  {
-    id: 6,
-    image: Work6,
-    title: "Illustration",
-    category: "React.js",
+    image: Unity,
+    title: "Physics Education Website (Unity WebGL)",
+    category: "Vanilla JavaScript",
+    link: "https://boldi247.github.io/fizikaonline/index.html",
   },
 ];
 

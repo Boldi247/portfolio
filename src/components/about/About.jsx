@@ -1,8 +1,10 @@
 import React from "react";
 import classes from "./About.module.css";
-import ProfileImage from "../../assets/avatar-2.svg";
+import ProfileImage from "../../assets/IMG_1185.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+
+import CV from "../../assets/pdf/CV_Kovacs_Boldizsar.pdf";
 
 const About = () => {
   return (
@@ -17,12 +19,24 @@ const About = () => {
         <div className={classes.about__data}>
           <div className={classes.about__info}>
             <p className={classes.about__description}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-              qui iste totam incidunt eum non quod nobis, dolores natus iusto
-              exercitationem vitae blanditiis impedit similique quas. Error
-              repellendus laudantium dolor.
+              Hi, my name is Kovács Boldizsár. I am currently studying at the
+              University of Debrecen, Faculty of Informatics - Computer Science
+              MSc. I am open to work and I look forward to provide IT solutions
+              and to deepen my skills in practice. I have an inexhaustible
+              desire to learn and I am always looking for new challenges.
             </p>
-            <a href="" className="btn">
+            <p className={classes.about__description}>
+              My main interest is front-end development, I like to create
+              responsive, user-friendly websites. I self-taught myself the
+              basics of web development, and I am currently learning React.
+            </p>
+            <a
+              className="btn"
+              href={CV}
+              download="CV_Kovacs_Boldizsar.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faFile} className={classes.doc_icon} />
               Download CV
             </a>

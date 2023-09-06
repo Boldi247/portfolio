@@ -34,6 +34,13 @@
     text-align: justify;
 }
 
+.about__image {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 .about__image_container {
     display: flex;
     justify-content: center;

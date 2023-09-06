@@ -7,28 +7,21 @@ const HeaderSocials = () => {
   return (
     <div className={classes.socials}>
       <a
-        href="https://google.com"
+        href="https://www.linkedin.com/in/boldizsár-kovács-6362b7281/"
         className={classes["social-link"]}
         target="_blank"
       >
         <i className="icon-social-linkedin"></i>
       </a>
       <a
-        href="https://google.com"
+        href="https://github.com/Boldi247"
         className={classes["social-link"]}
         target="_blank"
       >
         <i className="icon-social-github"></i>
       </a>
       <a
-        href="https://google.com"
-        className={classes["social-link"]}
-        target="_blank"
-      >
-        <i className="icon-phone"></i>
-      </a>
-      <a
-        href="https://google.com"
+        href="mailto:kovacsboldizsarjozsef@outlook.hu"
         className={classes["social-link"]}
         target="_blank"
       >

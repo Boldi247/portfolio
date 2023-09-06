@@ -27,14 +27,11 @@ const Portfolio = () => {
         <span className="btn" onClick={() => filterItem("Vanilla JavaScript")}>
           Vanilla JavaScript
         </span>
-        <span className="btn" onClick={() => filterItem("Unity")}>
-          Unity
-        </span>
       </div>
 
       <div className={`${classes.workContainer} grid`}>
         {items.map((elem) => {
-          const { id, image, title, category } = elem;
+          const { id, image, title, category, link } = elem;
           return (
             <div className={classes.workCard} key={id}>
               <div className={classes.thumbnail}>
@@ -43,7 +40,7 @@ const Portfolio = () => {
               </div>
               <span className={classes.workCategory}>{category}</span>
               <h3 className={classes.workTitle}>{title}</h3>
-              <a href="#" className={classes.workButton}>
+              <a href={link} className={classes.workButton}>
                 <i className={`${classes.workButtonIcon} icon-link`}></i>
               </a>
             </div>

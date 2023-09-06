@@ -18,7 +18,7 @@ const Services = () => {
           return (
             <div className={classes.card} key={id}>
               <div className={classes.img_wrapper}>
-                <i class={`${techIcon} ${classes.icon}`}></i>
+                <i className={`${techIcon} ${classes.icon}`}></i>
               </div>
               <h3 className={classes.services__title}>{title}</h3>
               <p className={classes.services__description}>{description}</p>
@@ -30,7 +30,7 @@ const Services = () => {
           return (
             <div className={classes.card} key={id}>
               <div className={classes.img_wrapper}>
-                <i class={`${techIcon} ${classes.icon}`}></i>
+                <i className={`${techIcon} ${classes.icon}`}></i>
               </div>
               <h3 className={classes.services__title}>{title}</h3>
               <p className={classes.services__description}>{description}</p>
@@ -42,7 +42,7 @@ const Services = () => {
           return (
             <div className={classes.card} key={id}>
               <div className={classes.img_wrapper}>
-                <i class={`${techIcon} ${classes.icon}`}></i>
+                <i className={`${techIcon} ${classes.icon}`}></i>
               </div>
               <h3 className={classes.services__title}>{title}</h3>
               <p className={classes.services__description}>{description}</p>
