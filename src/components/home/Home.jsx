@@ -13,7 +13,7 @@ const Home = () => {
           <img src={ProfilePic} alt="" className={classes.home__img}></img>
           <h1>&#128075; Hi, I'm</h1>
           <h1 className={classes.name}>Kovács Boldizsár</h1>
-          <span className={classes.shortIntro}>I'm a Front-End developer</span>
+          <span className={classes.shortIntro}>I'm a Web developer</span>
           <HeaderSocials />
           <a href="#contact" className="btn">
             Hire Me
