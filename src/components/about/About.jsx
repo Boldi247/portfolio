@@ -4,8 +4,6 @@ import ProfileImage from "../../assets/IMG_1185.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
-import CV from "../../assets/pdf/CV_Kovacs_Boldizsar.pdf";
-
 const About = () => {
   return (
     <section className={`${classes.about} container section`} id="about">
@@ -30,16 +28,6 @@ const About = () => {
               responsive, user-friendly websites. I self-taught myself the
               basics of web development, and I am currently learning React.
             </p>
-            <a
-              className="btn"
-              href={CV}
-              download="CV_Kovacs_Boldizsar.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faFile} className={classes.doc_icon} />
-              Download CV
-            </a>
           </div>
         </div>
       </div>
