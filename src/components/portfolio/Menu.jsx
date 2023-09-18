@@ -1,6 +1,7 @@
 import ReactMeals from "../../assets/projects-index/reactmeals.png";
 import AmazonStore from "../../assets/projects-index/amazon.png";
 import Unity from "../../assets/projects-index/unity.png";
+import GymApp from "../../assets/projects-index/gym.png";
 
 const Menu = [
   {
@@ -23,6 +24,13 @@ const Menu = [
     title: "Physics Education Website (Unity WebGL)",
     category: "Vanilla JavaScript",
     link: "https://boldi247.github.io/fizikaonline/index.html",
+  },
+  {
+    id: 4,
+    image: GymApp,
+    title: "Responsive Gym Exercises App (with Material UI)",
+    category: "React.js",
+    link: "https://kb-gym-react.netlify.app",
   },
 ];
 
