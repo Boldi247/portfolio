@@ -5,8 +5,8 @@ const reactIcon = "devicon-react-original";
 const wpIcon = "devicon-wordpress-plain";
 const mysqlIcon = "devicon-mysql-plain";
 const javaIcon = "devicon-java-plain";
-const pythonIcon = "devicon-python-plain";
-const unityIcon = "devicon-unity-original";
+const typescriptIcon = "devicon-typescript-plain";
+const nextjsIcon = "devicon-nextjs-original";
 
 const firstRowdata = [
   {
@@ -38,36 +38,37 @@ const secondRowdata = [
   },
   {
     id: 2,
-    techIcon: wpIcon,
-    title: "WordPress",
-    description: "Intermediate knowledge of WordPress",
+    techIcon: typescriptIcon,
+    title: "TypeScript",
+    description: "Actively learning, and getting familiar with TypeScript",
   },
   {
     id: 3,
-    techIcon: mysqlIcon,
-    title: "MySQL",
-    description: "Intermediate knowledge of MySQL, and SQL in general",
+    techIcon: nextjsIcon,
+    title: "Next.js",
+    description: "Actively learning, and getting familiar with Next.js",
   },
 ];
 
 const thirdRowdata = [
   {
     id: 1,
-    techIcon: javaIcon,
-    title: "Java",
-    description: "Intermediate knowledge of Java",
+    techIcon: wpIcon,
+    title: "WordPress",
+    description: "Intermediate knowledge of Wordpress",
   },
   {
     id: 2,
-    techIcon: pythonIcon,
-    title: "Python",
-    description: "Intermediate knowledge of Python",
+    techIcon: javaIcon,
+    title: "Java",
+    description:
+      "Intermediate knowledge of Java, currently learning Spring Boot",
   },
   {
     id: 3,
-    techIcon: unityIcon,
-    title: "Unity",
-    description: "Intermediate knowledge of Unity",
+    techIcon: mysqlIcon,
+    title: "MySQL",
+    description: "Intermediate knowledge of MySQL and SQL in general",
   },
 ];
 
