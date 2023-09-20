@@ -34,7 +34,7 @@ const secondRowdata = [
     id: 1,
     techIcon: reactIcon,
     title: "React.js",
-    description: "Intermediate knowledge of React.js",
+    description: "Strong knowledge of React.js",
   },
   {
     id: 2,

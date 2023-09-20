@@ -24,6 +24,9 @@ const Portfolio = () => {
         <span className="btn" onClick={() => filterItem("React.js")}>
           React.js
         </span>
+        <span className="btn" onClick={() => filterItem("Next.js")}>
+          Next.js
+        </span>
         <span className="btn" onClick={() => filterItem("Vanilla JavaScript")}>
           Vanilla JavaScript
         </span>
