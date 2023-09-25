@@ -10,6 +10,7 @@ const Menu = [
     image: CarRental,
     title: "Car Rental App (Tailwind CSS, TypeScript, Next.js)",
     category: "Next.js",
+    link: "https://nextjs-car-rental-nine.vercel.app",
   },
   {
     id: 2,
