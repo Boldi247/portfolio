@@ -3,6 +3,7 @@ import AmazonStore from "../../assets/projects-index/amazon.png";
 import Unity from "../../assets/projects-index/unity.png";
 import GymApp from "../../assets/projects-index/gym.png";
 import CarRental from "../../assets/projects-index/car-rental.png";
+import Wordle from "../../assets/projects-index/wordle.png";
 
 const Menu = [
   {
@@ -35,6 +36,13 @@ const Menu = [
   },
   {
     id: 5,
+    image: Wordle,
+    title: "Wordle Game Clone",
+    category: "React.js",
+    link: "https://kovacs-boldizsar-react-wordle.netlify.app",
+  },
+  {
+    id: 6,
     image: Unity,
     title: "Physics Education Website (Unity WebGL)",
     category: "Vanilla JavaScript",
