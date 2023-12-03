@@ -22,6 +22,15 @@ const experiences = [
     id: 3,
     category: "work",
     icon: "icon-briefcase",
+    year: "2023-present",
+    title: "Jabil Circuit Hungary Ltd.",
+    description:
+      "Front-end developer position. React.js, TypeScript, Mendix, Azure DevOps, Git and other technologies.",
+  },
+  {
+    id: 4,
+    category: "work",
+    icon: "icon-briefcase",
     year: "2022-2022",
     title: "Muncipal Government of Hangony",
     description:
