@@ -20,7 +20,7 @@ const experiences = [
     id: 3,
     category: "work",
     icon: "icon-briefcase",
-    year: "2023.10 - present",
+    year: "2023.10 - 2024.06",
     title: "Jabil Circuit Hungary Ltd.",
     description:
       "Front-end developer position. React.js, TypeScript, Cypress, Mendix, Azure DevOps, Git and other technologies.",
