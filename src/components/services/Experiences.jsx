@@ -4,6 +4,7 @@ const cssIcon = "devicon-css3-plain";
 const reactIcon = "devicon-react-original";
 const wpIcon = "devicon-wordpress-plain";
 const mysqlIcon = "devicon-mysql-plain";
+const postgresqlIcon = "devicon-postgresql-plain";
 const javaIcon = "devicon-java-plain";
 const typescriptIcon = "devicon-typescript-plain";
 const nextjsIcon = "devicon-nextjs-original";
@@ -40,13 +41,13 @@ const secondRowdata = [
     id: 2,
     techIcon: typescriptIcon,
     title: "TypeScript",
-    description: "Actively learning, and getting familiar with TypeScript",
+    description: "Strong knowledge of TypeScript",
   },
   {
     id: 3,
     techIcon: nextjsIcon,
     title: "Next.js",
-    description: "Actively learning, and getting familiar with Next.js",
+    description: "Actively working with Next.js",
   },
 ];
 
@@ -61,14 +62,13 @@ const thirdRowdata = [
     id: 2,
     techIcon: javaIcon,
     title: "Java",
-    description:
-      "Intermediate knowledge of Java, currently learning Spring Boot",
+    description: "Intermediate knowledge of Java, familiar with Spring Boot",
   },
   {
     id: 3,
-    techIcon: mysqlIcon,
-    title: "MySQL",
-    description: "Intermediate knowledge of MySQL and SQL in general",
+    techIcon: postgresqlIcon,
+    title: "PostgreSQL",
+    description: "Intermediate knowledge of PostgreSQL and SQL in general",
   },
 ];
 

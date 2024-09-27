@@ -20,13 +20,22 @@ const experiences = [
     id: 3,
     category: "work",
     icon: "icon-briefcase",
+    year: "2024.09 - present",
+    title: "Sonrisa LLT",
+    description:
+      "Junior Software engineer position, specializing in front-end development.",
+  },
+  {
+    id: 4,
+    category: "work",
+    icon: "icon-briefcase",
     year: "2023.10 - 2024.06",
     title: "Jabil Circuit Hungary Ltd.",
     description:
       "Front-end developer position. React.js, TypeScript, Cypress, Mendix, Azure DevOps, Git and other technologies.",
   },
   {
-    id: 4,
+    id: 5,
     category: "work",
     icon: "icon-briefcase",
     year: "2022.06 - 2022.09",
